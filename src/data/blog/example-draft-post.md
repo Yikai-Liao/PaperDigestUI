@@ -4,7 +4,7 @@ author: Sat Naing
 pubDatetime: 2022-06-06T04:06:31Z
 slug: example-draft-post
 featured: false
-draft: true
+draft: false
 tags:
   - TypeScript
   - Astro
@@ -19,3 +19,8 @@ Users cannot see this post because it is in draft.
 ## Motivation
 
 测试中文支持
+
+欧拉公式
+$$
+e^{i\pi} + 1 = 0
+$$

@@ -1,8 +1,6 @@
+@import url('https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css');
 @import "tailwindcss";
 @import "./typography.css";
-
-/* 导入Maple Mono字体 */
-@import url('https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css');
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
