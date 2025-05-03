@@ -1,7 +1,14 @@
 @import "tailwindcss";
 @import "./typography.css";
 
+/* 导入Maple Mono字体 */
+@import url('https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css');
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+:root {
+  --font-main: 'Maple Mono CN', 'IBM Plex Mono', monospace;
+}
 
 :root,
 html[data-theme="light"] {
@@ -39,6 +46,7 @@ html[data-theme="dark"] {
   }
   body {
     @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
+    font-family: var(--font-main);
   }
   a,
   button {

@@ -18,4 +18,4 @@ Users cannot see this post because it is in draft.
 
 ## Motivation
 
-rec 1
+测试中文支持
